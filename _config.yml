@@ -21,14 +21,14 @@ repository               : "Q-Minh/Q-Minh.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile2.png"
   name             : "Quoc-Minh Ton-That"
   pronouns         : # example: "she/her"  
   bio              : "PhD candidate specializing in real-time physics-based animation"
   location         : "Montreal, QC, Canada"
-  employer         : "ÉTS"
-  uri              : https://www.etsmtl.ca/
-  email            : "tonthat.quocminh@gmail.com" 
+  employer         : "ÉTS University"
+  uri              : https://q-minh.github.io/
+  email            : "tonthat.quocminh@gmail.com"
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
