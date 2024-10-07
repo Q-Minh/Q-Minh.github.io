@@ -24,10 +24,10 @@ author:
   avatar           : "profile.png"
   name             : "Quoc-Minh Ton-That"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
+  bio              : "PhD candidate specializing in real-time physics-based animation"
   location         : "Montreal, QC, Canada"
-  employer         : "École de Technologie Supérieure"
-  uri              : # URL
+  employer         : "ÉTS"
+  uri              : https://www.etsmtl.ca/
   email            : "tonthat.quocminh@gmail.com" 
 
   # Academic websites
@@ -37,7 +37,7 @@ author:
   orcid            : "https://orcid.org/0000-0002-0856-5562"
   semantic         : # URL
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  researchgate     : # URL
+  researchgate     : https://www.researchgate.net/profile/Quoc-Minh-Ton-That
 
   # Repositories and software development
   bitbucket        : # Username - Update with your username on the site
