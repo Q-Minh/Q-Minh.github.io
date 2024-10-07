@@ -1,13 +1,13 @@
 ---
-title: "Parallel Block Neo-Hookean XPBD using Graph Clustering<br><img src='../images/parallel-block-neohookean-xpbd-bunny-colors.png'>"
+title: "Parallel Block Neo-Hookean XPBD using Graph Clustering"
 collection: publications
 category: manuscripts
 permalink: /publication/2024-Parallel-Block-Neo-Hookean-XPBD-using-Graph-Clustering
-excerpt: '**Best Paper Honorable Mention** at MIG 2022.'
+excerpt: "<img src='../images/parallel-block-neohookean-xpbd-bunny-colors.png'><br>**Best Paper Honorable Mention** at MIG 2022."
 date: 2022-11-12
 venue: 'Computer Graphics Forum'
-slidesurl: 'http://profs.etsmtl.ca/sandrews/slides/MIG22_Parallel_block_neohookean.pdf'
-paperurl: 'http://profs.etsmtl.ca/sandrews/pdf/xpbdBlockNeo_MIG22_preprint.pdf'
+slidesurl: 'https://Q-Minh.github.io/files/PBNH_XPBD_MIG.pdf'
+paperurl: 'https://Q-Minh.github.io/files/PBNH_XPBD.pdf'
 citation: 'Ton-That, Quoc-Minh, Paul G. Kry, and Sheldon Andrews. (2024, August). &quot;Parallel Block Neo-Hookean XPBD using Graph Clustering.&quot; <i>Computers & Graphics</i>. 110, 1-10.'
 ---
 

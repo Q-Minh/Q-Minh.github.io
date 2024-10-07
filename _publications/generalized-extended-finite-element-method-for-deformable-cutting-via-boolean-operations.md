@@ -1,15 +1,17 @@
 ---
-title: "Generalized eXtended Finite Element Method for Deformable Cutting via Boolean Operations<br><img src='../images/gxfem-paper.png'>"
+title: "Generalized eXtended Finite Element Method for Deformable Cutting via Boolean Operations"
 collection: publications
 category: manuscripts
 permalink: /publication/2024-Generalized-eXtended-Finite-Element-Method-for-Deformable-Cutting-via-Boolean-Operations
-excerpt: '**Best Paper Award** at the 23rd ACM SIGGRAPH / Eurographics Symposium on Computer Animation (SCA2024).'
+excerpt: "<img src='../images/gxfem-paper.png'><br>**Best Paper Award** at the 23rd ACM SIGGRAPH / Eurographics Symposium on Computer Animation (SCA2024)."
 date: 2024-08-21
 venue: 'Computer Graphics Forum'
-slidesurl: 'http://profs.etsmtl.ca/sandrews/slides/GXFEM_SCA24.pptx'
-paperurl: 'http://profs.etsmtl.ca/sandrews/pdf/SCA24_cutting.pdf'
+slidesurl: 'https://Q-Minh.github.io/files/GXFEM_SCA.pptx'
+paperurl: 'https://Q-Minh.github.io/files/GXFEM.pdf'
 citation: 'Ton-That, Quoc-Minh, Paul G. Kry, and Sheldon Andrews. (2024, August). &quot;Generalized eXtended Finite Element Method for Deformable Cutting via Boolean Operations.&quot; <i>Computer Graphics Forum</i>. 43(8).'
 ---
+
+[![Supplemental video](https://img.youtube.com/vi/JiCJ2gy1Qxw/0.jpg)](https://www.youtube.com/watch?v=JiCJ2gy1Qxw)
 
 Short
 ------
