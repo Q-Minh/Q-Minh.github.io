@@ -3,13 +3,17 @@ title: "Parallel Block Neo-Hookean XPBD using Graph Clustering"
 collection: publications
 category: manuscripts
 permalink: /publication/2024-Parallel-Block-Neo-Hookean-XPBD-using-Graph-Clustering
-excerpt: 'Use our graph clustering technique for parallel execution of dense computational graphs to significantly speed up your workloads, especially on GPU hardware. Coupled with our blocked constraint formulation, we accelerate XPBD simulations by an order of magnitude. <br><br>**Best Paper Honorable Mention** at MIG 2022.'
+excerpt: '**Best Paper Honorable Mention** at MIG 2022.'
 date: 2022-11-12
 venue: 'Computer Graphics Forum'
 slidesurl: 'http://profs.etsmtl.ca/sandrews/slides/MIG22_Parallel_block_neohookean.pdf'
 paperurl: 'http://profs.etsmtl.ca/sandrews/pdf/xpbdBlockNeo_MIG22_preprint.pdf'
 citation: 'Ton-That, Quoc-Minh, Paul G. Kry, and Sheldon Andrews. (2024, August). &quot;Parallel Block Neo-Hookean XPBD using Graph Clustering.&quot; <i>Computers & Graphics</i>. 110, 1-10.'
 ---
+
+Short
+------
+Use our graph clustering technique for parallel execution of dense computational graphs to significantly speed up your workloads, especially on GPU hardware. Coupled with our blocked constraint formulation, we accelerate XPBD simulations by an order of magnitude.
 
 Abstract
 ------
