@@ -1,5 +1,5 @@
 ---
-title: "Generalized eXtended Finite Element Method for Deformable Cutting via Boolean Operations"
+title: "Generalized eXtended Finite Element Method for Deformable Cutting via Boolean Operations<br><img src='../images/gxfem-paper.png'>"
 collection: publications
 category: manuscripts
 permalink: /publication/2024-Generalized-eXtended-Finite-Element-Method-for-Deformable-Cutting-via-Boolean-Operations

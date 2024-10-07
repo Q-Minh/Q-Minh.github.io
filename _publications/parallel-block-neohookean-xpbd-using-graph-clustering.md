@@ -1,5 +1,5 @@
 ---
-title: "Parallel Block Neo-Hookean XPBD using Graph Clustering"
+title: "Parallel Block Neo-Hookean XPBD using Graph Clustering<br><img src='../images/parallel-block-neohookean-xpbd-bunny-colors.png'>"
 collection: publications
 category: manuscripts
 permalink: /publication/2024-Parallel-Block-Neo-Hookean-XPBD-using-Graph-Clustering
