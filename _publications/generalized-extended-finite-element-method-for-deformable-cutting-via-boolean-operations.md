@@ -11,6 +11,9 @@ paperurl: 'https://Q-Minh.github.io/files/GXFEM.pdf'
 citation: 'Ton-That, Quoc-Minh, Paul G. Kry, and Sheldon Andrews. (2024, August). &quot;Generalized eXtended Finite Element Method for Deformable Cutting via Boolean Operations.&quot; <i>Computer Graphics Forum</i>. 43(8).'
 ---
 
+Video
+------
+
 [![Supplemental video](https://img.youtube.com/vi/JiCJ2gy1Qxw/0.jpg)](https://www.youtube.com/watch?v=JiCJ2gy1Qxw)
 
 Short
@@ -23,4 +26,4 @@ Traditional mesh-based methods for cutting deformable bodies rely on modifying t
 
 Awards
 ------
-**Best Paper Award** at the 23rd ACM SIGGRAPH / Eurographics Symposium on Computer Animation (SCA '24). Supplemental video can be found [here](https://youtu.be/JiCJ2gy1Qxw).
+**Best Paper Award** at the 23rd ACM SIGGRAPH / Eurographics Symposium on Computer Animation (SCA '24). 

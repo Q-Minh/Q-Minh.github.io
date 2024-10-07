@@ -1,6 +1,6 @@
 ---
 title: "Physics Based Animation Toolkit"
-excerpt: "<img src='/images/gpu.xpbd.bvh.gif'>"
+excerpt: "Cross-platform C++ physically based simulation library with Python bindings for research scientists and engineers.<br><img src='/images/gpu.xpbd.bvh.gif'>"
 collection: projects
 ---
 

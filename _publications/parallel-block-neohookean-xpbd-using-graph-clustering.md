@@ -11,6 +11,9 @@ paperurl: 'https://Q-Minh.github.io/files/PBNH_XPBD.pdf'
 citation: 'Ton-That, Quoc-Minh, Paul G. Kry, and Sheldon Andrews. (2024, August). &quot;Parallel Block Neo-Hookean XPBD using Graph Clustering.&quot; <i>Computers & Graphics</i>. 110, 1-10.'
 ---
 
+Video
+------
+
 [![Supplemental video](https://img.youtube.com/vi/MGgENtqyb7Q/0.jpg)](https://www.youtube.com/watch?v=MGgENtqyb7Q)
 
 Short
@@ -23,4 +26,4 @@ The eXtended Position Based Dynamics algorithm (XPBD) enables unified simulation
 
 Awards
 ------
-**Best Paper Honorable Mention** at MIG 2022. Supplemental video can be found [here](https://youtu.be/MGgENtqyb7Q).
+**Best Paper Honorable Mention** at MIG 2022. 
