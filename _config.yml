@@ -21,7 +21,7 @@ repository               : "Q-Minh/Q-Minh.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile2.png"
+  avatar           : "profile1.png"
   name             : "Quoc-Minh Ton-That"
   pronouns         : # example: "she/her"  
   bio              : "PhD candidate specializing in real-time physics-based animation"
