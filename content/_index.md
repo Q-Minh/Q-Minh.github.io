@@ -19,17 +19,15 @@ sections:
         text: Download CV
         url: uploads/resume.pdf
     design:
-      css_class: dark
       background:
-        color: black
         image:
           # Add your image background to `assets/media/`.
-          filename: stacked-peaks.svg
+          filename: animated-shapes.svg
           filters:
             brightness: 1.0
           size: cover
           position: center
-          parallax: true
+          parallax: false
   - block: markdown
     content:
       title: '📚 Research'
@@ -51,6 +49,7 @@ sections:
           - publication
         featured_only: true
     design:
+      fill_image: false
       view: article-grid
       columns: 2
   - block: collection
@@ -77,11 +76,15 @@ sections:
     id: projects
     content:
       title: Projects
+      text: |- 
+        In research, in many cases, our bandwidth for designing algorithms is significantly higher than for implementing them. I try to leverage a strong foundation in software engineering to facilitate research velocity via contributions to open-source.
+
       filters:
         folders: 
           - project
     design:
       view: article-grid
+      fill_image: false
       columns: 1
   # - block: collection
   #   id: news
