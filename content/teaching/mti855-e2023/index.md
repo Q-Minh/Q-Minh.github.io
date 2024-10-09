@@ -10,7 +10,7 @@ image:
   caption: ''
 ---
 
-This course introduces students to numerical techniques for physics-based animation in real-time applications, such as video games and virtual reality applications. The main objective of this course is to develop an understanding of the fundamental techniques used for physics-based animation.
+This course introduces students to numerical techniques for physics-based animation in real-time applications, such as video games and virtual reality. The main objective of this course is to develop an understanding of the fundamental techniques used for physics-based animation.
 
 By the end of the course, students will be able to 
 - understand the fundamental principles of modeling and simulating physical environments, including soft and rigid bodies, fluids, and 3D characters

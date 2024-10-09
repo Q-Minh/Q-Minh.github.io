@@ -45,7 +45,7 @@
     </item>
     
     <item>
-      <title>Generalized eXtended Finite Element Method for Deformable Cutting via Boolean Operations</title>
+      <title>* Generalized eXtended Finite Element Method for Deformable Cutting via Boolean Operations</title>
       <link>http://localhost:1313/publication/gxfem/</link>
       <pubDate>Wed, 21 Aug 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/publication/gxfem/</guid>
@@ -57,6 +57,7 @@
       &gt;&lt;/iframe&gt;
     &lt;/div&gt;
 
+&lt;p&gt;&lt;span style=&#34;color:red&#34;&gt;&lt;b&gt;Best Paper&lt;/b&gt;&lt;/span&gt; award at the 23rd ACM SIGGRAPH / Eurographics Symposium on Computer Animation (SCA &amp;lsquo;24).&lt;/p&gt;
 &lt;h3 id=&#34;cite&#34;&gt;Cite&lt;/h3&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bib&#34; data-lang=&#34;bib&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nc&#34;&gt;@article&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;nl&#34;&gt;xfemCutting2024&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;na&#34;&gt;author&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;{Ton-That, Quoc-Minh and Kry, Paul G. and Andrews, Sheldon}&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
@@ -194,7 +195,7 @@
       <link>http://localhost:1313/teaching/mti855-e2023/</link>
       <pubDate>Mon, 01 May 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/teaching/mti855-e2023/</guid>
-      <description>&lt;p&gt;This course introduces students to numerical techniques for physics-based animation in real-time applications, such as video games and virtual reality applications. The main objective of this course is to develop an understanding of the fundamental techniques used for physics-based animation.&lt;/p&gt;
+      <description>&lt;p&gt;This course introduces students to numerical techniques for physics-based animation in real-time applications, such as video games and virtual reality. The main objective of this course is to develop an understanding of the fundamental techniques used for physics-based animation.&lt;/p&gt;
 &lt;p&gt;By the end of the course, students will be able to&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;understand the fundamental principles of modeling and simulating physical environments, including soft and rigid bodies, fluids, and 3D characters&lt;/li&gt;
@@ -226,7 +227,7 @@
     </item>
     
     <item>
-      <title>Parallel Block Neo-Hookean XPBD using Graph Clustering</title>
+      <title>* Parallel Block Neo-Hookean XPBD using Graph Clustering</title>
       <link>http://localhost:1313/publication/pbnh-xpbd/</link>
       <pubDate>Sat, 12 Nov 2022 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/publication/pbnh-xpbd/</guid>
@@ -238,6 +239,7 @@
       &gt;&lt;/iframe&gt;
     &lt;/div&gt;
 
+&lt;p&gt;&lt;span style=&#34;color:red&#34;&gt;&lt;b&gt;Best Paper&lt;/b&gt;&lt;/span&gt; honourable mention at the 15th annual ACM/SIGGRAPH conference on Motion, Interaction and Games (MIG 2022).&lt;/p&gt;
 &lt;h2 id=&#34;cite&#34;&gt;Cite&lt;/h2&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bib&#34; data-lang=&#34;bib&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nc&#34;&gt;@article&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;nl&#34;&gt;blockNeo22_preprint&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;na&#34;&gt;author&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;{Ton-That, Quoc-Minh and Kry, Paul G. and Andrews, Sheldon}&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;

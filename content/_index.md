@@ -42,46 +42,35 @@ sections:
         <ins>*I am also actively looking for internship positions*</ins> 👨🏻‍💼
     design:
       spacing:
-        padding: ['96px', '20px', '0px', '20px']
+        padding: ['96px', '10px', '0px', '10px']
       columns: '1'
   - block: collection
     id: papers
     content:
-      title: Featured Publications
+      title: Publications
+      text: |-
+        **\*** = *best paper award/mention at conference*
       filters:
         folders:
           - publication
-        featured_only: true
     design:
       spacing:
         padding: ['96px', '10px', '0px', '10px']
       fill_image: false
       view: article-grid
       columns: 2
-  - block: collection
-    content:
-      title: Recent Publications
-      text: ""
-      filters:
-        folders:
-          - publication
-        exclude_featured: false
-    design:
-      spacing:
-        padding: ['48px', '10px', '0px', '10px']
-      view: citation
-  - block: collection
-    id: talks
-    content:
-      title: Recent & Upcoming Talks
-      filters:
-        folders:
-          - event
-    design:
-      spacing:
-        padding: ['96px', '10px', '0px', '10px']
-      view: article-grid
-      columns: 1
+  # - block: collection
+  #   id: talks
+  #   content:
+  #     title: Talks
+  #     filters:
+  #       folders:
+  #         - event
+  #   design:
+  #     spacing:
+  #       padding: ['96px', '10px', '0px', '10px']
+  #     view: card
+  #     columns: 1
   - block: collection
     id: projects
     content:
