@@ -76,7 +76,7 @@ sections:
     content:
       title: Projects
       text: |- 
-        In research, in many cases, our bandwidth for designing algorithms is significantly higher than for implementing them. I try to leverage a strong foundation in software engineering to facilitate research velocity via contributions to open-source.
+        Many researchers have a significantly higher bandwidth for designing algorithms than for implementing them. I try to leverage a strong foundation in software engineering to facilitate research velocity via contributions to open-source.
 
       filters:
         folders: 
