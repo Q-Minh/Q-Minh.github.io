@@ -33,12 +33,16 @@ sections:
       title: '📚 Research'
       subtitle: ''
       text: |-
-        I leverage massively parallel computing techniques via GPGPU programming, graph processing, efficient large-scale collision detection and handling algorithms, and (non-)linear subspace simulation methods to design and implement high-performance non-linear dynamics solvers.
+        I leverage massively parallel computing techniques via GPGPU programming, graph processing, efficient large-scale collision detection and handling algorithms, and reduced subspace simulation methods to design and implement high-performance non-linear dynamics solvers.
 
         At present, my research is focused on multiscale methods for real-time convergent elastodynamics, robust geometry processing algorithms for cutting in virtual surgery simulations, and general neural physics primitives for solving PDEs on resource-constrained computational platforms.
         
         Please reach out to collaborate 😃
+
+        <ins>*I am also actively looking for internship positions*</ins> 👨🏻‍💼
     design:
+      spacing:
+        padding: ['96px', '20px', '0px', '20px']
       columns: '1'
   - block: collection
     id: papers
@@ -49,6 +53,8 @@ sections:
           - publication
         featured_only: true
     design:
+      spacing:
+        padding: ['96px', '10px', '0px', '10px']
       fill_image: false
       view: article-grid
       columns: 2
@@ -61,6 +67,8 @@ sections:
           - publication
         exclude_featured: false
     design:
+      spacing:
+        padding: ['48px', '10px', '0px', '10px']
       view: citation
   - block: collection
     id: talks
@@ -70,6 +78,8 @@ sections:
         folders:
           - event
     design:
+      spacing:
+        padding: ['96px', '10px', '0px', '10px']
       view: article-grid
       columns: 1
   - block: collection
@@ -83,6 +93,8 @@ sections:
         folders: 
           - project
     design:
+      spacing:
+        padding: ['48px', '10px', '0px', '10px']
       view: article-grid
       fill_image: false
       columns: 1

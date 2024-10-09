@@ -67,4 +67,17 @@ slides: ""
 
 {{< youtube MGgENtqyb7Q >}}
 
+## Cite
+
+```bib
+@article{blockNeo22_preprint,
+    author = {Ton-That, Quoc-Minh and Kry, Paul G. and Andrews, Sheldon},
+    title = {Parallel Block Neo-Hookean XPBD using Graph Clustering},
+    journal = {Computers & Graphics},
+    volume = {110}, 
+    pages = {1--10},
+    year = {2023},
+    doi = {10.1016/j.cag.2022.10.009}
+}
+```
 

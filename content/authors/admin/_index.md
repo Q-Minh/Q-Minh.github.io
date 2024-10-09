@@ -57,8 +57,8 @@ education:
     institution: École de Technologie Supérieure
     date_start: 2021-05-01
     date_end: 2025-12-31
-    summary: |
-      Thesis on real-time elastodynamic simulation with cutting for virtual surgery. Co-supervised by Professors [Sheldon Andrews](https://profs.etsmtl.ca/sandrews/) and [Paul G. Kry](https://www.cs.mcgill.ca/~kry/). 
+    summary: |-
+      Thesis on real-time elastodynamic simulation with cutting for virtual surgery. Co-supervised by professors <a href="https://profs.etsmtl.ca/sandrews/">Sheldon Andrews</a> and <a href="https://www.cs.mcgill.ca/~kry/">Paul G. Kry</a>. 
     # button:
     #   text: 'Read Thesis'
     #   url: 'https://example.com'
@@ -68,29 +68,45 @@ education:
     date_end: 2021-04-30
     summary: |
       GPA: 4.0/4.3
-
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
 work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
+  - position: Research Scientist Intern
+    company_name: Symgery Inc.
     company_url: ''
     company_logo: ''
-    date_start: 2021-01-01
-    date_end: ''
+    date_start: 2021-06-01
+    date_end: 2022-03-31
     summary: |2-
       Responsibilities include:
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
+  - position: R&D Software Developer Intern
+    company_name: Symgery Inc.
     company_url: ''
     company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+    date_start: 2020-05-04
+    date_end: 2020-08-21
+    summary: |
+      Responsibilities include:
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - position: R&D Software Developer Intern
+    company_name: PreVu3D
+    company_url: ''
+    company_logo: ''
+    date_start: 2019-04-22
+    date_end: 2019-08-16
+    summary: |
+      Responsibilities include:
+      - Migrated infrastructure to a new data center
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - position: Cloud Software Developer Intern
+    company_name: Genetec
+    company_url: ''
+    company_logo: ''
+    date_start: 2018-09-03
+    date_end: 2019-04-12
     summary: |
       Responsibilities include:
       - Migrated infrastructure to a new data center
@@ -102,45 +118,48 @@ work:
 skills:
   - name: Technical Skills
     items:
-      - name: Python
+      - name: C++, Python
+        description: ''
+        percent: 90
+        icon: code-bracket
+      - name: Cuda
+        description: ''
+        percent: 90
+        icon: cpu-chip
+      - name: CMake, Git
+        description: ''
+        icon: command-line
+      - name: Scientific read/writing
         description: ''
         percent: 80
-        icon: code-bracket
-      - name: C++
-        description: ''
-        percent: 80
-        icon: code-bracket
-      - name: Data Science
-        description: ''
-        percent: 100
-        icon: chart-bar
-      - name: SQL
-        description: ''
-        percent: 40
-        icon: circle-stack
+        icon: book-open
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Hiking
+      - name: Weightlifting
         description: ''
         percent: 60
-        icon: person-simple-walk
-      - name: Cats
-        description: ''
-        percent: 100
-        icon: cat
-      - name: Photography
+        icon: trophy
+      - name: Football
         description: ''
         percent: 80
-        icon: camera
+        icon: rocket-launch
+      - name: Manga/Anime
+        description: ''
+        percent: 100
+        icon: film
+      - name: Animals
+        description: ''
+        percent: 80
+        icon: heart
 
 languages:
   - name: English
     percent: 100
-  - name: Chinese
-    percent: 75
-  - name: Portuguese
+  - name: French
+    percent: 100
+  - name: Vietnamese
     percent: 25
 
 # Awards.
@@ -148,33 +167,58 @@ languages:
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: Neural Networks and Deep Learning
-    url: https://www.coursera.org/learn/neural-networks-deep-learning
+  - title: FRQNT Doctoral Scholarship
+    url: https://frq.gouv.qc.ca/en/program/frqnt-doctoral-training-scholarships/
     date: '2023-11-25'
-    awarder: Coursera
-    icon: coursera
-    summary: |
-      I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
-  - title: Blockchain Fundamentals
-    url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
+    awarder: Fonds de recherche du Québec
+    icon: frq-logo-couleur
+    summary: 100 000 CAD
+      
+  - title: NSERC Canada Graduate Scholarship - Master's program
+    url: https://www.nserc-crsng.gc.ca/Students-Etudiants/PG-CS/CGSM-BESCM_eng.asp
     date: '2023-07-01'
-    awarder: edX
-    icon: edx
-    summary: |
-      Learned:
-      - Synthesize your own blockchain solutions
-      - Gain an in-depth understanding of the specific mechanics of Bitcoin
-      - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
-  - title: 'Object-Oriented Programming in R'
-    url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
-    certificate_url: https://www.datacamp.com
+    awarder: Natural Sciences and Engineering Research Council of Canada
+    icon: nserc-logo-color
+    summary: 17 500 CAD
+      
+  - title: FRQNT Master's Scholarship
+    url: https://frq.gouv.qc.ca/en/program/frqnt-masters-training-scholarships/
     date: '2023-01-21'
-    awarder: datacamp
-    icon: datacamp
+    awarder: Fonds de recherche du Québec
+    icon: frq-logo-couleur
+    summary: 17 500 CAD
+
+  - title: Mitacs Accelerate Fellowship
+    url: https://www.mitacs.ca/our-programs/accelerate-fellowship-students-postdocs/
+    date: ''
+    awarder: Mitacs
+    icon: mitacs-logo-blue
+    summary: 30 000 CAD
+      
+  - title: Academic Excellence Scholarship
+    url: https://www.etsmtl.ca/en/ets/bourses/ets-excellence
+    date: '2021-03-17'
+    awarder: École de Technologie Supérieure
+    icon: ets-logo
+    summary: 40 000 CAD
+
+  - title: Honour List
+    url: https://www.etsmtl.ca/en/about-ets/honour-list
+    date: '2021-05-01'
+    awarder: École de Technologie Supérieure
+    icon: ets-logo
     summary: |
-      Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
+      The ÉTS Honour List features the students with the most outstanding academic results at the undergraduate, master’s and PhD levels.
+
+  - title: Academic Excellence Scholarship
+    url: ''
+    date: '2018-12-04'
+    awarder: TD Assurance Meloche Monnex
+    icon: td-canada-trust-logo
+    summary: 2 000 CAD
+
 ---
 
 ## About Me
 
-I am a PhD candidate in Software Engineering at [École de technologie supérieure](https://www.etsmtl.ca/) (ÉTS), specializing in physics-based animation for computer graphics. My research is co-supervised by [Professor Sheldon Andrews](https://profs.etsmtl.ca/sandrews/) (ÉTS) and [Professor Paul G. Kry](https://www.cs.mcgill.ca/~kry/) (McGill University), allowing me to explore cutting-edge techniques in computational physics, geometry processing, numerical computing and machine learning, in the context of computer animation.
+I am a PhD candidate in Software Engineering at [École de technologie supérieure](https://www.etsmtl.ca/) (ÉTS), specializing in physics-based animation for computer graphics. My research is co-supervised by professors [Sheldon Andrews](https://profs.etsmtl.ca/sandrews/) (ÉTS) and [Paul G. Kry](https://www.cs.mcgill.ca/~kry/) (McGill University), allowing me to explore cutting-edge techniques in computational physics, geometry processing, numerical computing and machine learning, in the context of computer animation.
