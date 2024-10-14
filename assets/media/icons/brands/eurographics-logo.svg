@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 231 143" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <linearGradient id="linearGradient3224">
+      <stop offset="0" style="stop-color:#fee800;stop-opacity:1" id="stop3226"/>
+      <stop offset="1" style="stop-color:#fefef6;stop-opacity:1" id="stop3228"/>
+    </linearGradient>
+    <linearGradient gradientTransform="matrix(1.642206, 0, 0, 1.642131, -320.281494, -328.374657)" gradientUnits="userSpaceOnUse" id="linearGradient3230" y2="243.64062" x2="264.71875" y1="243.64062" x1="195.03125" xlink:href="#linearGradient3224"/>
+  </defs>
+  <path stroke="none" fill="#0464ac" fill-rule="evenodd"/>
+  <path style="fill:#24201f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:17;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" id="path2398" d="M 18.743 0 L 18.743 143.43 L 230.88 143.43 L 230.88 58.039 L 173.146 58.039 L 173.146 85.955 L 202.962 85.955 L 202.962 115.514 L 143.279 115.514 L 143.279 27.916 L 230.88 27.916 L 230.88 0 L 18.743 0 Z"/>
+  <path style="fill:url(#linearGradient3230);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:17;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" id="path3199" d="M 0 0 L 0 143.43 L 114.441 143.43 L 114.441 115.514 L 27.917 115.514 L 27.917 85.648 L 114.441 85.648 L 114.441 57.731 L 27.917 57.731 L 27.917 27.916 L 114.441 27.916 L 114.441 0 L 0 0 Z"/>
+</svg>
