@@ -93,6 +93,8 @@ sections:
           - teaching
     design:
       view: card
+      spacing:
+        padding: ['6rem', '10px', 0, '10px']
   - block: collection
     id: posts
     content:
@@ -114,5 +116,5 @@ sections:
       view: date-title-summary
       # Reduce spacing
       spacing:
-        padding: [0, 0, 0, 0]
+        padding: ['6rem', '10px', 0, '10px']
 ---
