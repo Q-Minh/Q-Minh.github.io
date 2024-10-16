@@ -17,7 +17,32 @@
       <link>http://localhost:1313/blog/cmake/</link>
       <pubDate>Tue, 15 Oct 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/blog/cmake/</guid>
-      <description></description>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The 
+ reports from 2018 to 2023 demonstrate 
+&amp;rsquo;s ongoing dominance as the most popular build system for 
+ projects. The data also reveals that 
+ is the programming language most likely to be paired with C++.&lt;/p&gt;
+&lt;p&gt;Although CMake has existed long before its current success and has gone through many significant changes since its inception, it still aims to maintain backwards compatibility. As such, bad CMake practices remain prevalent in many open-source codebases, especially in the research community.&lt;/p&gt;
+&lt;p&gt;Many resources on &amp;ldquo;effective&amp;rdquo; and &amp;ldquo;modern&amp;rdquo; CMake already exist online, and I don&amp;rsquo;t wish to repeat the same information all over again. Unfortunately, some of those resources may conflict with others on what exactly are CMake&amp;rsquo;s best practices and how to use it effectively.&lt;/p&gt;
+&lt;p&gt;Thus, I would highly encourage readers interested in developing open-source C++ projects to read 
+&amp;rsquo;s 
+, as the author is one of the co-maintainers of CMake itself and has extensive relevant experience on the topic. His 
+ and book were very well received by the C++ community, and I myself find his book to be the best CMake learning resource that I have read out of many others.&lt;/p&gt;
+&lt;p&gt;This series of blog posts will go over how I created and maintain an open-source cross-platform C++ project, which is managed by CMake. I will aim to write hands-on flavored articles that focus on typical research use cases, with code snippets that the reader can easily copy, paste and replace in their own project. Going over these use cases entails that we will cover topics such as&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;static/shared libraries&lt;/li&gt;
+&lt;li&gt;dependency management&lt;/li&gt;
+&lt;li&gt;compiling CUDA code&lt;/li&gt;
+&lt;li&gt;automated testing&lt;/li&gt;
+&lt;li&gt;installation&lt;/li&gt;
+&lt;li&gt;Python bindings.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The hope is that it will not be too hard to capture the fundamental principles that have guided the decisions that went into my own codebase, and generalize them to the reader&amp;rsquo;s particular situation.&lt;/p&gt;
+</description>
     </item>
     
   </channel>
