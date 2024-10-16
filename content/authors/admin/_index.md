@@ -171,28 +171,28 @@ languages:
 awards:
   - title: FRQNT Doctoral Scholarship
     url: https://frq.gouv.qc.ca/en/program/frqnt-doctoral-training-scholarships/
-    date: '2023-11-25'
+    date: '2024-05-01'
     awarder: Fonds de recherche du Québec
     icon: frq-logo-couleur
     summary: 100 000 CAD
       
   - title: NSERC Canada Graduate Scholarship - Master's program
     url: https://www.nserc-crsng.gc.ca/Students-Etudiants/PG-CS/CGSM-BESCM_eng.asp
-    date: '2023-07-01'
+    date: '2023-05-01'
     awarder: Natural Sciences and Engineering Research Council of Canada
     icon: nserc-logo-color
     summary: 17 500 CAD
       
   - title: FRQNT Master's Scholarship
     url: https://frq.gouv.qc.ca/en/program/frqnt-masters-training-scholarships/
-    date: '2023-01-21'
+    date: '2023-05-01'
     awarder: Fonds de recherche du Québec
     icon: frq-logo-couleur
     summary: 17 500 CAD
 
   - title: Mitacs Accelerate Fellowship
     url: https://www.mitacs.ca/our-programs/accelerate-fellowship-students-postdocs/
-    date: ''
+    date: '2021-06-01'
     awarder: Mitacs
     icon: mitacs-logo-blue
     summary: 30 000 CAD
