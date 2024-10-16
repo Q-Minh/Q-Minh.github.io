@@ -1,6 +1,6 @@
 <!doctype html>
 <!-- This site was created with Hugo Blox. https://hugoblox.com -->
-<!-- Last Published: October 14, 2024 --><html lang="en-us" dir="ltr"
+<!-- Last Published: October 15, 2024 --><html lang="en-us" dir="ltr"
       data-wc-theme-default="system">
   
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
@@ -41,7 +41,7 @@
   
     
   
-  <meta name="description" content="Discretize discontinuous functions on FEM meshes using our generalized XFEM, which supports multiple, complex and (self-)intersecting discontinuities." />
+  <meta name="description" content="Traditional mesh-based methods for cutting deformable bodies rely on modifying the simulation mesh by deleting, duplicating, deforming or subdividing its elements. Unfortunately, such topological changes eventually lead to instability, reduced accuracy, or computational efficiency challenges. Hence, state of the art algorithms favor the extended finite element method (XFEM), which decouples the cut geometry from the simulation mesh, allowing for stable and accurate cuts at an additional computational cost that is local to the cut region. However, in the 3-dimensional setting, current XFEM frameworks are limited by the cutting configurations that they support. In particular, intersecting cuts are either prohibited or require sophisticated special treatment. Our work presents a general XFEM formulation that is applicable to the 1-, 2-, and 3-dimensional setting without sacrificing the desirable properties of the method. In particular, we propose a generalized enrichment which supports multiple intersecting cuts of various degrees of non-linearity by leveraging recent advances in robust mesh-Boolean technology. This novel strategy additionally enables analytic discontinuous integration schemes required to compute mass, force and elastic energy. We highlight the simplicity, expressivity and accuracy of our XFEM implementation across various scenarios in which intersecting cutting patterns are featured." />
 
   
   <link rel="alternate" hreflang="en-us" href="http://localhost:1313/publication/gxfem/" />
@@ -184,8 +184,8 @@
   
   <meta property="og:site_name" content="Quoc-Minh Ton-That" />
   <meta property="og:url" content="http://localhost:1313/publication/gxfem/" />
-  <meta property="og:title" content="* Generalized eXtended Finite Element Method for Deformable Cutting via Boolean Operations | Quoc-Minh Ton-That" />
-  <meta property="og:description" content="Discretize discontinuous functions on FEM meshes using our generalized XFEM, which supports multiple, complex and (self-)intersecting discontinuities." /><meta property="og:image" content="http://localhost:1313/publication/gxfem/featured.png" />
+  <meta property="og:title" content="Generalized eXtended Finite Element Method for Deformable Cutting via Boolean Operations | Quoc-Minh Ton-That" />
+  <meta property="og:description" content="Traditional mesh-based methods for cutting deformable bodies rely on modifying the simulation mesh by deleting, duplicating, deforming or subdividing its elements. Unfortunately, such topological changes eventually lead to instability, reduced accuracy, or computational efficiency challenges. Hence, state of the art algorithms favor the extended finite element method (XFEM), which decouples the cut geometry from the simulation mesh, allowing for stable and accurate cuts at an additional computational cost that is local to the cut region. However, in the 3-dimensional setting, current XFEM frameworks are limited by the cutting configurations that they support. In particular, intersecting cuts are either prohibited or require sophisticated special treatment. Our work presents a general XFEM formulation that is applicable to the 1-, 2-, and 3-dimensional setting without sacrificing the desirable properties of the method. In particular, we propose a generalized enrichment which supports multiple intersecting cuts of various degrees of non-linearity by leveraging recent advances in robust mesh-Boolean technology. This novel strategy additionally enables analytic discontinuous integration schemes required to compute mass, force and elastic energy. We highlight the simplicity, expressivity and accuracy of our XFEM implementation across various scenarios in which intersecting cutting patterns are featured." /><meta property="og:image" content="http://localhost:1313/publication/gxfem/featured.png" />
     <meta property="twitter:image" content="http://localhost:1313/publication/gxfem/featured.png" /><meta property="og:locale" content="en-us" />
   
     
@@ -218,7 +218,7 @@
     "@type": "WebPage",
     "@id": "http://localhost:1313/publication/gxfem/"
   },
-  "headline": "* Generalized eXtended Finite Element Method for Deformable Cutting via Boolean Operations",
+  "headline": "Generalized eXtended Finite Element Method for Deformable Cutting via Boolean Operations",
   
   "image": [
     "http://localhost:1313/publication/gxfem/featured.png"
@@ -240,7 +240,7 @@
       "url": "http://localhost:1313/media/icon_hu10829472966132691797.png"
     }
   },
-  "description": "Discretize discontinuous functions on FEM meshes using our generalized XFEM, which supports multiple, complex and (self-)intersecting discontinuities."
+  "description": "Traditional mesh-based methods for cutting deformable bodies rely on modifying the simulation mesh by deleting, duplicating, deforming or subdividing its elements. Unfortunately, such topological changes eventually lead to instability, reduced accuracy, or computational efficiency challenges. Hence, state of the art algorithms favor the extended finite element method (XFEM), which decouples the cut geometry from the simulation mesh, allowing for stable and accurate cuts at an additional computational cost that is local to the cut region. However, in the 3-dimensional setting, current XFEM frameworks are limited by the cutting configurations that they support. In particular, intersecting cuts are either prohibited or require sophisticated special treatment. Our work presents a general XFEM formulation that is applicable to the 1-, 2-, and 3-dimensional setting without sacrificing the desirable properties of the method. In particular, we propose a generalized enrichment which supports multiple intersecting cuts of various degrees of non-linearity by leveraging recent advances in robust mesh-Boolean technology. This novel strategy additionally enables analytic discontinuous integration schemes required to compute mass, force and elastic energy. We highlight the simplicity, expressivity and accuracy of our XFEM implementation across various scenarios in which intersecting cutting patterns are featured."
 }
 </script>
 
@@ -249,7 +249,7 @@
   
 
 
-  <title>* Generalized eXtended Finite Element Method for Deformable Cutting via Boolean Operations | Quoc-Minh Ton-That</title>
+  <title>Generalized eXtended Finite Element Method for Deformable Cutting via Boolean Operations | Quoc-Minh Ton-That</title>
 
   
   
@@ -281,6 +281,66 @@
   
   
   
+  
+  
+  
+  
+  
+  
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
     
       
       
@@ -446,13 +506,6 @@
         
       
     
-  
-  
-  
-  
-  
-  
-  
   
   
   
@@ -707,8 +760,22 @@
         <a
           class="nav-link "
           
-          href="/teaching/"
+          href="/#teaching"
         >Teaching</a
+        >
+      </li>
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link "
+          
+          href="/blog/"
+        >Blog</a
         >
       </li>
       
@@ -802,9 +869,9 @@
         <li class=""><a
     class="hb-sidebar-custom-link
       text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
-    href="/event/"
+    href="/blog/"
     
-  >Recent &amp; Upcoming Talks
+  >Blog
         <span data-hb-sidebar-toggle>
             <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" class="h-[18px] min-w-[18px] rounded-sm p-0.5 hover:bg-gray-800/5 dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="origin-center transition-transform rtl:-rotate-180"></path></svg>
         </span>
@@ -812,11 +879,45 @@
         <ul class="hb-sidebar-list"><li class="flex flex-col "><a
     class="hb-sidebar-custom-link
       text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
-    href="/event/example/"
+    href="/blog/cmake/"
     
-  >Example Talk
+  >💻 CMake
     </a>
               
+            </li><li class="flex flex-col open"><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/blog/math/"
+    
+  >🧮 Math
+        <span data-hb-sidebar-toggle>
+            <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" class="h-[18px] min-w-[18px] rounded-sm p-0.5 hover:bg-gray-800/5 dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="origin-center transition-transform rtl:-rotate-180"></path></svg>
+        </span>
+    </a>
+              <div class="ltr:pr-0 overflow-hidden">
+        <ul class="hb-sidebar-list"><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/blog/math/sympy/"
+    
+  >📐 SymPy
+        <span data-hb-sidebar-toggle>
+            <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" class="h-[18px] min-w-[18px] rounded-sm p-0.5 hover:bg-gray-800/5 dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="origin-center transition-transform rtl:-rotate-180"></path></svg>
+        </span>
+    </a>
+              <div class="ltr:pr-0 overflow-hidden">
+        <ul class="hb-sidebar-list"><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/blog/math/sympy/codegen/"
+    
+  >Code Generation
+    </a>
+              
+            </li></ul>
+      </div>
+            </li></ul>
+      </div>
             </li></ul>
       </div></li>
         <li class=""><a
@@ -861,7 +962,7 @@
       sidebar-active-item bg-primary-100 font-semibold text-primary-800 dark:bg-primary-300 dark:text-primary-900"
     href="/publication/gxfem/"
     
-  >* Generalized eXtended Finite Element Method for Deformable Cutting via Boolean Operations
+  >Generalized eXtended Finite Element Method for Deformable Cutting via Boolean Operations
     </a>
   
     <ul class="hb-sidebar-mobile-toc"><li>
@@ -878,27 +979,7 @@
       text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
     href="/publication/pbnh-xpbd/"
     
-  >* Parallel Block Neo-Hookean XPBD using Graph Clustering
-    </a>
-              
-            </li></ul>
-      </div></li>
-        <li class=""><a
-    class="hb-sidebar-custom-link
-      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
-    href="/post/"
-    
-  >Blog
-        <span data-hb-sidebar-toggle>
-            <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" class="h-[18px] min-w-[18px] rounded-sm p-0.5 hover:bg-gray-800/5 dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="origin-center transition-transform rtl:-rotate-180"></path></svg>
-        </span>
-    </a><div class="ltr:pr-0 overflow-hidden">
-        <ul class="hb-sidebar-list"><li class="flex flex-col "><a
-    class="hb-sidebar-custom-link
-      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
-    href="/post/get-started/"
-    
-  >🎉 Easily create your own simple yet highly customizable blog
+  >Parallel Block Neo-Hookean XPBD using Graph Clustering
     </a>
               
             </li></ul>
@@ -975,7 +1056,7 @@
 
       
 
-      <h1 class="mt-2 text-4xl font-bold tracking-tight text-slate-900 dark:text-slate-100">* Generalized eXtended Finite Element Method for Deformable Cutting via Boolean Operations</h1>
+      <h1 class="mt-2 text-4xl font-bold tracking-tight text-slate-900 dark:text-slate-100">Generalized eXtended Finite Element Method for Deformable Cutting via Boolean Operations</h1>
 
       <div class="mt-4 mb-16">
       <div class="text-gray-500 dark:text-gray-300 text-sm flex items-center flex-wrap gap-y-2"><span class="mr-1">Aug 21, 2024</span><span class="mx-1">·</span>
@@ -1207,7 +1288,7 @@
   <a
     target="_blank" rel="noopener"
     class="m-1 rounded-md bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral-300 dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-    href="https://twitter.com/intent/tweet?url=http%3A%2F%2Flocalhost%3A1313%2Fpublication%2Fgxfem%2F&amp;text=%2A&#43;Generalized&#43;eXtended&#43;Finite&#43;Element&#43;Method&#43;for&#43;Deformable&#43;Cutting&#43;via&#43;Boolean&#43;Operations"
+    href="https://twitter.com/intent/tweet?url=http%3A%2F%2Flocalhost%3A1313%2Fpublication%2Fgxfem%2F&amp;text=Generalized&#43;eXtended&#43;Finite&#43;Element&#43;Method&#43;for&#43;Deformable&#43;Cutting&#43;via&#43;Boolean&#43;Operations"
     title="X"
     aria-label="X"
     id="share-link-x"
@@ -1225,7 +1306,7 @@
   <a
     target="_blank" rel="noopener"
     class="m-1 rounded-md bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral-300 dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-    href="https://www.facebook.com/sharer.php?u=http%3A%2F%2Flocalhost%3A1313%2Fpublication%2Fgxfem%2F&amp;t=%2A&#43;Generalized&#43;eXtended&#43;Finite&#43;Element&#43;Method&#43;for&#43;Deformable&#43;Cutting&#43;via&#43;Boolean&#43;Operations"
+    href="https://www.facebook.com/sharer.php?u=http%3A%2F%2Flocalhost%3A1313%2Fpublication%2Fgxfem%2F&amp;t=Generalized&#43;eXtended&#43;Finite&#43;Element&#43;Method&#43;for&#43;Deformable&#43;Cutting&#43;via&#43;Boolean&#43;Operations"
     title="Facebook"
     aria-label="Facebook"
     id="share-link-facebook"
@@ -1245,7 +1326,7 @@
   <a
     target="_blank" rel="noopener"
     class="m-1 rounded-md bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral-300 dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-    href="mailto:?subject=%2A%20Generalized%20eXtended%20Finite%20Element%20Method%20for%20Deformable%20Cutting%20via%20Boolean%20Operations&amp;body=http%3A%2F%2Flocalhost%3A1313%2Fpublication%2Fgxfem%2F"
+    href="mailto:?subject=Generalized%20eXtended%20Finite%20Element%20Method%20for%20Deformable%20Cutting%20via%20Boolean%20Operations&amp;body=http%3A%2F%2Flocalhost%3A1313%2Fpublication%2Fgxfem%2F"
     title="Email"
     aria-label="Email"
     id="share-link-email"
@@ -1263,7 +1344,7 @@
   <a
     target="_blank" rel="noopener"
     class="m-1 rounded-md bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral-300 dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-    href="https://www.linkedin.com/shareArticle?url=http%3A%2F%2Flocalhost%3A1313%2Fpublication%2Fgxfem%2F&amp;title=%2A&#43;Generalized&#43;eXtended&#43;Finite&#43;Element&#43;Method&#43;for&#43;Deformable&#43;Cutting&#43;via&#43;Boolean&#43;Operations"
+    href="https://www.linkedin.com/shareArticle?url=http%3A%2F%2Flocalhost%3A1313%2Fpublication%2Fgxfem%2F&amp;title=Generalized&#43;eXtended&#43;Finite&#43;Element&#43;Method&#43;for&#43;Deformable&#43;Cutting&#43;via&#43;Boolean&#43;Operations"
     title="LinkedIn"
     aria-label="LinkedIn"
     id="share-link-linkedin"
@@ -1281,7 +1362,7 @@
   <a
     target="_blank" rel="noopener"
     class="m-1 rounded-md bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral-300 dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-    href="whatsapp://send?text=%2A&#43;Generalized&#43;eXtended&#43;Finite&#43;Element&#43;Method&#43;for&#43;Deformable&#43;Cutting&#43;via&#43;Boolean&#43;Operations%20http%3A%2F%2Flocalhost%3A1313%2Fpublication%2Fgxfem%2F"
+    href="whatsapp://send?text=Generalized&#43;eXtended&#43;Finite&#43;Element&#43;Method&#43;for&#43;Deformable&#43;Cutting&#43;via&#43;Boolean&#43;Operations%20http%3A%2F%2Flocalhost%3A1313%2Fpublication%2Fgxfem%2F"
     title="WhatsApp"
     aria-label="WhatsApp"
     id="share-link-whatsapp"
@@ -1339,7 +1420,7 @@
 
     
     <div class="text-sm font-bold text-neutral-700 dark:text-neutral-300">
-    PhD research scientist
+    PhD Research Scientist
     </div>
     
 
@@ -1494,7 +1575,7 @@
           <span class="flex flex-col">
             <span
               class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
-            >* Parallel Block Neo-Hookean XPBD using Graph Clustering</span
+            >Parallel Block Neo-Hookean XPBD using Graph Clustering</span
             >
             <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
               

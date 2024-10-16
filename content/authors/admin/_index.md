@@ -20,7 +20,7 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: PhD research scientist
+role: PhD Research Scientist
 
 # Organizations/Affiliations to display in Biography blox
 organizations:

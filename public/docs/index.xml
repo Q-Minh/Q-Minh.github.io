@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog | Quoc-Minh Ton-That</title>
+    <link>http://localhost:1313/docs/</link>
+      <atom:link href="http://localhost:1313/docs/index.xml" rel="self" type="application/rss+xml" />
+    <description>Blog</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 15 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu15109734213095994562.png</url>
+      <title>Blog</title>
+      <link>http://localhost:1313/docs/</link>
+    </image>
+    
+    <item>
+      <title>Getting Started</title>
+      <link>http://localhost:1313/docs/getting-started/</link>
+      <pubDate>Sat, 17 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/getting-started/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>💻 Introduction to CMake</title>
+      <link>http://localhost:1313/docs/cmake/</link>
+      <pubDate>Tue, 15 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/cmake/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>📐 Symbolic Math for Normal People</title>
+      <link>http://localhost:1313/docs/sympy/</link>
+      <pubDate>Tue, 15 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/sympy/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

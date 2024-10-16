@@ -47,9 +47,7 @@ sections:
   - block: collection
     id: papers
     content:
-      title: Publications
-      text: |-
-        **\*** = *best paper award/mention at conference*
+      title: Selected Publications
       filters:
         folders:
           - publication
@@ -59,18 +57,17 @@ sections:
       fill_image: false
       view: article-grid
       columns: 2
-  # - block: collection
-  #   id: talks
-  #   content:
-  #     title: Talks
-  #     filters:
-  #       folders:
-  #         - event
-  #   design:
-  #     spacing:
-  #       padding: ['6rem', '10px', '6rem', '10px']
-  #     view: card
-  #     columns: 1
+  - block: collection
+    id: selected
+    content:
+      title: Publications
+      filters:
+        folders:
+          - publication
+    design:
+      spacing:
+        padding: ['0', '10px', '0', '10px']
+      view: citation
   - block: collection
     id: projects
     content:
@@ -83,37 +80,39 @@ sections:
           - project
     design:
       spacing:
-        padding: ['6rem', '10px', '6rem', '10px']
+        padding: ['6rem', '10px', '0', '10px']
       view: article-grid
       fill_image: false
       columns: 1
-  # - block: collection
-  #   id: news
-  #   content:
-  #     title: Recent News
-  #     subtitle: ''
-  #     text: ''
-  #     # Page type to display. E.g. post, talk, publication...
-  #     page_type: post
-  #     # Choose how many pages you would like to display (0 = all pages)
-  #     count: 5
-  #     # Filter on criteria
-  #     filters:
-  #       author: ""
-  #       category: ""
-  #       tag: ""
-  #       exclude_featured: false
-  #       exclude_future: false
-  #       exclude_past: false
-  #       publication_type: ""
-  #     # Choose how many pages you would like to offset by
-  #     offset: 0
-  #     # Page order: descending (desc) or ascending (asc) date.
-  #     order: desc
-  #   design:
-  #     # Choose a layout view
-  #     view: date-title-summary
-  #     # Reduce spacing
-  #     spacing:
-  #       padding: [0, 0, 0, 0]
+  - block: collection
+    id: teaching
+    content:
+      title: Teaching
+      filters:
+        folders:
+          - teaching
+    design:
+      view: card
+  - block: collection
+    id: posts
+    content:
+      title: Recent Posts
+      subtitle: ''
+      text: ""
+      # Page type to display. E.g. post, talk, publication...
+      page_type: docs
+      # Choose how many pages you would like to display (0 = all pages)
+      count: 5
+      # Filter on criteria
+      filters:
+        folders:
+          - blog
+      # Page order: descending (desc) or ascending (asc) date.
+      order: desc
+    design:
+      # Choose a layout view
+      view: date-title-summary
+      # Reduce spacing
+      spacing:
+        padding: [0, 0, 0, 0]
 ---

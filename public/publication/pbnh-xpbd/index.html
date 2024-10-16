@@ -1,6 +1,6 @@
 <!doctype html>
 <!-- This site was created with Hugo Blox. https://hugoblox.com -->
-<!-- Last Published: October 11, 2024 --><html lang="en-us" dir="ltr"
+<!-- Last Published: October 15, 2024 --><html lang="en-us" dir="ltr"
       data-wc-theme-default="system">
   
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
@@ -41,7 +41,7 @@
   
     
   
-  <meta name="description" content="Use our graph clustering technique to significantly speed up parallel execution of your dense computational graphs, especially on GPU hardware." />
+  <meta name="description" content="The eXtended Position Based Dynamics algorithm (XPBD) enables unified simulation of various materials from fluids to both elastic solids and stiff solids. In particular, finite element based neo-Hookean models can simulate near incompressible materials by means of a decoupled compliant constraint formulation. Due to XPBD’s reliance on local constraint projections in the solver loop, its computational nature lends itself to parallelization by means of graph coloring algorithms used to determine partitions of independent constraints which can be solved simultaneously. However, minimal graph coloring is bounded from below by the maximum valence of the finite element mesh, thus hindering parallelization opportunities. In this paper, we propose a novel graph clustering approach on the constraint graph which groups highly dependent constraints into supernodes. By applying graph coloring on the supernodal constraint graph, we are able to significantly reduce the number of partitions, thus enhancing parallelization of the solver. Furthermore, we accelerate convergence of the neo-Hookean XPBD solver by a coupled constraint formulation, resulting in enhanced stability and efficiency compared to previous approaches." />
 
   
   <link rel="alternate" hreflang="en-us" href="http://localhost:1313/publication/pbnh-xpbd/" />
@@ -184,8 +184,8 @@
   
   <meta property="og:site_name" content="Quoc-Minh Ton-That" />
   <meta property="og:url" content="http://localhost:1313/publication/pbnh-xpbd/" />
-  <meta property="og:title" content="* Parallel Block Neo-Hookean XPBD using Graph Clustering | Quoc-Minh Ton-That" />
-  <meta property="og:description" content="Use our graph clustering technique to significantly speed up parallel execution of your dense computational graphs, especially on GPU hardware." /><meta property="og:image" content="http://localhost:1313/publication/pbnh-xpbd/featured.png" />
+  <meta property="og:title" content="Parallel Block Neo-Hookean XPBD using Graph Clustering | Quoc-Minh Ton-That" />
+  <meta property="og:description" content="The eXtended Position Based Dynamics algorithm (XPBD) enables unified simulation of various materials from fluids to both elastic solids and stiff solids. In particular, finite element based neo-Hookean models can simulate near incompressible materials by means of a decoupled compliant constraint formulation. Due to XPBD’s reliance on local constraint projections in the solver loop, its computational nature lends itself to parallelization by means of graph coloring algorithms used to determine partitions of independent constraints which can be solved simultaneously. However, minimal graph coloring is bounded from below by the maximum valence of the finite element mesh, thus hindering parallelization opportunities. In this paper, we propose a novel graph clustering approach on the constraint graph which groups highly dependent constraints into supernodes. By applying graph coloring on the supernodal constraint graph, we are able to significantly reduce the number of partitions, thus enhancing parallelization of the solver. Furthermore, we accelerate convergence of the neo-Hookean XPBD solver by a coupled constraint formulation, resulting in enhanced stability and efficiency compared to previous approaches." /><meta property="og:image" content="http://localhost:1313/publication/pbnh-xpbd/featured.png" />
     <meta property="twitter:image" content="http://localhost:1313/publication/pbnh-xpbd/featured.png" /><meta property="og:locale" content="en-us" />
   
     
@@ -218,7 +218,7 @@
     "@type": "WebPage",
     "@id": "http://localhost:1313/publication/pbnh-xpbd/"
   },
-  "headline": "* Parallel Block Neo-Hookean XPBD using Graph Clustering",
+  "headline": "Parallel Block Neo-Hookean XPBD using Graph Clustering",
   
   "image": [
     "http://localhost:1313/publication/pbnh-xpbd/featured.png"
@@ -240,7 +240,7 @@
       "url": "http://localhost:1313/media/icon_hu10829472966132691797.png"
     }
   },
-  "description": "Use our graph clustering technique to significantly speed up parallel execution of your dense computational graphs, especially on GPU hardware."
+  "description": "The eXtended Position Based Dynamics algorithm (XPBD) enables unified simulation of various materials from fluids to both elastic solids and stiff solids. In particular, finite element based neo-Hookean models can simulate near incompressible materials by means of a decoupled compliant constraint formulation. Due to XPBD’s reliance on local constraint projections in the solver loop, its computational nature lends itself to parallelization by means of graph coloring algorithms used to determine partitions of independent constraints which can be solved simultaneously. However, minimal graph coloring is bounded from below by the maximum valence of the finite element mesh, thus hindering parallelization opportunities. In this paper, we propose a novel graph clustering approach on the constraint graph which groups highly dependent constraints into supernodes. By applying graph coloring on the supernodal constraint graph, we are able to significantly reduce the number of partitions, thus enhancing parallelization of the solver. Furthermore, we accelerate convergence of the neo-Hookean XPBD solver by a coupled constraint formulation, resulting in enhanced stability and efficiency compared to previous approaches."
 }
 </script>
 
@@ -249,7 +249,7 @@
   
 
 
-  <title>* Parallel Block Neo-Hookean XPBD using Graph Clustering | Quoc-Minh Ton-That</title>
+  <title>Parallel Block Neo-Hookean XPBD using Graph Clustering | Quoc-Minh Ton-That</title>
 
   
   
@@ -281,6 +281,68 @@
   
   
   
+  
+  
+  
+  
+  
+  
+  
+  
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
     
       
       
@@ -446,13 +508,6 @@
         
       
     
-  
-  
-  
-  
-  
-  
-  
   
   
   
@@ -707,8 +762,22 @@
         <a
           class="nav-link "
           
-          href="/teaching/"
+          href="/#teaching"
         >Teaching</a
+        >
+      </li>
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link "
+          
+          href="/blog/"
+        >Blog</a
         >
       </li>
       
@@ -802,9 +871,9 @@
         <li class=""><a
     class="hb-sidebar-custom-link
       text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
-    href="/event/"
+    href="/blog/"
     
-  >Recent &amp; Upcoming Talks
+  >Blog
         <span data-hb-sidebar-toggle>
             <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" class="h-[18px] min-w-[18px] rounded-sm p-0.5 hover:bg-gray-800/5 dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="origin-center transition-transform rtl:-rotate-180"></path></svg>
         </span>
@@ -812,11 +881,53 @@
         <ul class="hb-sidebar-list"><li class="flex flex-col "><a
     class="hb-sidebar-custom-link
       text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
-    href="/event/example/"
+    href="/blog/cmake/"
     
-  >Example Talk
+  >💻 CMake
     </a>
               
+            </li><li class="flex flex-col open"><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/blog/math/"
+    
+  >🧮 Math
+        <span data-hb-sidebar-toggle>
+            <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" class="h-[18px] min-w-[18px] rounded-sm p-0.5 hover:bg-gray-800/5 dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="origin-center transition-transform rtl:-rotate-180"></path></svg>
+        </span>
+    </a>
+              <div class="ltr:pr-0 overflow-hidden">
+        <ul class="hb-sidebar-list"><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/blog/math/sympy/"
+    
+  >SymPy
+        <span data-hb-sidebar-toggle>
+            <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" class="h-[18px] min-w-[18px] rounded-sm p-0.5 hover:bg-gray-800/5 dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="origin-center transition-transform rtl:-rotate-180"></path></svg>
+        </span>
+    </a>
+              <div class="ltr:pr-0 overflow-hidden">
+        <ul class="hb-sidebar-list"><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/blog/math/sympy/codegen/"
+    
+  >Code Generation
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/blog/math/sympy/integration/"
+    
+  >Integration
+    </a>
+              
+            </li></ul>
+      </div>
+            </li></ul>
+      </div>
             </li></ul>
       </div></li>
         <li class=""><a
@@ -861,7 +972,7 @@
       text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
     href="/publication/gxfem/"
     
-  >* Generalized eXtended Finite Element Method for Deformable Cutting via Boolean Operations
+  >Generalized eXtended Finite Element Method for Deformable Cutting via Boolean Operations
     </a>
               
             </li><li class="flex flex-col open"><a
@@ -869,7 +980,7 @@
       sidebar-active-item bg-primary-100 font-semibold text-primary-800 dark:bg-primary-300 dark:text-primary-900"
     href="/publication/pbnh-xpbd/"
     
-  >* Parallel Block Neo-Hookean XPBD using Graph Clustering
+  >Parallel Block Neo-Hookean XPBD using Graph Clustering
     </a>
   
     <ul class="hb-sidebar-mobile-toc"><li>
@@ -880,26 +991,6 @@
             </li>
           </ul>
   
-              
-            </li></ul>
-      </div></li>
-        <li class=""><a
-    class="hb-sidebar-custom-link
-      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
-    href="/post/"
-    
-  >Blog
-        <span data-hb-sidebar-toggle>
-            <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" class="h-[18px] min-w-[18px] rounded-sm p-0.5 hover:bg-gray-800/5 dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="origin-center transition-transform rtl:-rotate-180"></path></svg>
-        </span>
-    </a><div class="ltr:pr-0 overflow-hidden">
-        <ul class="hb-sidebar-list"><li class="flex flex-col "><a
-    class="hb-sidebar-custom-link
-      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
-    href="/post/get-started/"
-    
-  >🎉 Easily create your own simple yet highly customizable blog
-    </a>
               
             </li></ul>
       </div></li>
@@ -975,7 +1066,7 @@
 
       
 
-      <h1 class="mt-2 text-4xl font-bold tracking-tight text-slate-900 dark:text-slate-100">* Parallel Block Neo-Hookean XPBD using Graph Clustering</h1>
+      <h1 class="mt-2 text-4xl font-bold tracking-tight text-slate-900 dark:text-slate-100">Parallel Block Neo-Hookean XPBD using Graph Clustering</h1>
 
       <div class="mt-4 mb-16">
       <div class="text-gray-500 dark:text-gray-300 text-sm flex items-center flex-wrap gap-y-2"><span class="mr-1">Nov 12, 2022</span><span class="mx-1">·</span>
@@ -1206,7 +1297,7 @@
   <a
     target="_blank" rel="noopener"
     class="m-1 rounded-md bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral-300 dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-    href="https://twitter.com/intent/tweet?url=http%3A%2F%2Flocalhost%3A1313%2Fpublication%2Fpbnh-xpbd%2F&amp;text=%2A&#43;Parallel&#43;Block&#43;Neo-Hookean&#43;XPBD&#43;using&#43;Graph&#43;Clustering"
+    href="https://twitter.com/intent/tweet?url=http%3A%2F%2Flocalhost%3A1313%2Fpublication%2Fpbnh-xpbd%2F&amp;text=Parallel&#43;Block&#43;Neo-Hookean&#43;XPBD&#43;using&#43;Graph&#43;Clustering"
     title="X"
     aria-label="X"
     id="share-link-x"
@@ -1224,7 +1315,7 @@
   <a
     target="_blank" rel="noopener"
     class="m-1 rounded-md bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral-300 dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-    href="https://www.facebook.com/sharer.php?u=http%3A%2F%2Flocalhost%3A1313%2Fpublication%2Fpbnh-xpbd%2F&amp;t=%2A&#43;Parallel&#43;Block&#43;Neo-Hookean&#43;XPBD&#43;using&#43;Graph&#43;Clustering"
+    href="https://www.facebook.com/sharer.php?u=http%3A%2F%2Flocalhost%3A1313%2Fpublication%2Fpbnh-xpbd%2F&amp;t=Parallel&#43;Block&#43;Neo-Hookean&#43;XPBD&#43;using&#43;Graph&#43;Clustering"
     title="Facebook"
     aria-label="Facebook"
     id="share-link-facebook"
@@ -1244,7 +1335,7 @@
   <a
     target="_blank" rel="noopener"
     class="m-1 rounded-md bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral-300 dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-    href="mailto:?subject=%2A%20Parallel%20Block%20Neo-Hookean%20XPBD%20using%20Graph%20Clustering&amp;body=http%3A%2F%2Flocalhost%3A1313%2Fpublication%2Fpbnh-xpbd%2F"
+    href="mailto:?subject=Parallel%20Block%20Neo-Hookean%20XPBD%20using%20Graph%20Clustering&amp;body=http%3A%2F%2Flocalhost%3A1313%2Fpublication%2Fpbnh-xpbd%2F"
     title="Email"
     aria-label="Email"
     id="share-link-email"
@@ -1262,7 +1353,7 @@
   <a
     target="_blank" rel="noopener"
     class="m-1 rounded-md bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral-300 dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-    href="https://www.linkedin.com/shareArticle?url=http%3A%2F%2Flocalhost%3A1313%2Fpublication%2Fpbnh-xpbd%2F&amp;title=%2A&#43;Parallel&#43;Block&#43;Neo-Hookean&#43;XPBD&#43;using&#43;Graph&#43;Clustering"
+    href="https://www.linkedin.com/shareArticle?url=http%3A%2F%2Flocalhost%3A1313%2Fpublication%2Fpbnh-xpbd%2F&amp;title=Parallel&#43;Block&#43;Neo-Hookean&#43;XPBD&#43;using&#43;Graph&#43;Clustering"
     title="LinkedIn"
     aria-label="LinkedIn"
     id="share-link-linkedin"
@@ -1280,7 +1371,7 @@
   <a
     target="_blank" rel="noopener"
     class="m-1 rounded-md bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral-300 dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-    href="whatsapp://send?text=%2A&#43;Parallel&#43;Block&#43;Neo-Hookean&#43;XPBD&#43;using&#43;Graph&#43;Clustering%20http%3A%2F%2Flocalhost%3A1313%2Fpublication%2Fpbnh-xpbd%2F"
+    href="whatsapp://send?text=Parallel&#43;Block&#43;Neo-Hookean&#43;XPBD&#43;using&#43;Graph&#43;Clustering%20http%3A%2F%2Flocalhost%3A1313%2Fpublication%2Fpbnh-xpbd%2F"
     title="WhatsApp"
     aria-label="WhatsApp"
     id="share-link-whatsapp"
@@ -1338,7 +1429,7 @@
 
     
     <div class="text-sm font-bold text-neutral-700 dark:text-neutral-300">
-    PhD research scientist
+    PhD Research Scientist
     </div>
     
 
@@ -1493,7 +1584,7 @@
           <span class="flex flex-col">
             <span
               class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
-            >* Generalized eXtended Finite Element Method for Deformable Cutting via Boolean Operations</span>
+            >Generalized eXtended Finite Element Method for Deformable Cutting via Boolean Operations</span>
             <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
               
                 Aug 21, 2024
