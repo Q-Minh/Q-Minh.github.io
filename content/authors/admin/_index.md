@@ -36,7 +36,7 @@ profiles:
   - icon: brands/github
     url: https://github.com/Q-Minh
   - icon: brands/linkedin
-    url: https://www.linkedin.com/
+    url: www.linkedin.com/in/quoc-minh-ton-that-09b707333
   - icon: academicons/google-scholar
     url: https://scholar.google.com/citations?hl=en&user=hXNq44AAAAAJ
   - icon: academicons/orcid
