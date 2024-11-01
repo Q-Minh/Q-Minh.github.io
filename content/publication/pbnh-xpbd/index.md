@@ -25,7 +25,8 @@ publication_short: ""
 abstract: The eXtended Position Based Dynamics algorithm (XPBD) enables unified simulation of various materials from fluids to both elastic solids and stiff solids. In particular, finite element based neo-Hookean models can simulate near incompressible materials by means of a decoupled compliant constraint formulation. Due to XPBD’s reliance on local constraint projections in the solver loop, its computational nature lends itself to parallelization by means of graph coloring algorithms used to determine partitions of independent constraints which can be solved simultaneously. However, minimal graph coloring is bounded from below by the maximum valence of the finite element mesh, thus hindering parallelization opportunities. In this paper, we propose a novel graph clustering approach on the constraint graph which groups highly dependent constraints into supernodes. By applying graph coloring on the supernodal constraint graph, we are able to significantly reduce the number of partitions, thus enhancing parallelization of the solver. Furthermore, we accelerate convergence of the neo-Hookean XPBD solver by a coupled constraint formulation, resulting in enhanced stability and efficiency compared to previous approaches.
 
 # Summary. An optional shortened abstract.
-summary: ''
+summary: |
+  Best Paper honourable mention at the 15th annual ACM/SIGGRAPH conference on Motion, Interaction and Games (MIG 2022).
 
 tags:
 - Publications
