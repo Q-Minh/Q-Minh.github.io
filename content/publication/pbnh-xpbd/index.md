@@ -36,7 +36,7 @@ featured: true
 # - name: ""
 #   url: ""
 url_pdf: http://profs.etsmtl.ca/sandrews/pdf/xpbdBlockNeo_MIG22_preprint.pdf
-url_code: ''
+url_code: 'https://github.com/Q-Minh/PhysicsBasedAnimationToolkit'
 url_dataset: ''
 url_poster: ''
 url_project: ''
