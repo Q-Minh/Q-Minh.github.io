@@ -1,6 +1,6 @@
 ---
 title: Integration
-summary: 'Learn how to use SymPy to compute integrals analytically in 1,,2 and 3 dimensions for various problems.'
+summary: 'Learn how to use SymPy to compute integrals analytically in 1, 2 and 3 dimensions for various problems.'
 date: 2024-10-15
 weight: 1
 
