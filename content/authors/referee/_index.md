@@ -33,13 +33,27 @@ awards:
     # date: '2023-03-19'
     awarder: Association for Computing Machinery
     icon: acm-logo
-    summary: | 
-      Reviewed in 2023.
+    # summary: | 
+    #   Reviewed in 2023.
+  - title: Special Interest Group on Computer Graphics and Interactive Techniques (SIGGRAPH)
+    url: https://www.siggraph.org/
+    # date: '2023-03-19'
+    awarder: Association for Computing Machinery
+    icon: siggraph-logo
+    # summary: | 
+    #   Reviewed in 2025.
+  - title: Computers & Graphics (C&G)
+    url: https://www.sciencedirect.com/journal/computers-and-graphics
+    # date: '2023-03-19'
+    awarder: Elsevier
+    icon: elsevier-logo
+    # summary: | 
+    #   Reviewed in 2025.
   - title: Computer Graphics Forum (CGF)
     url: https://onlinelibrary.wiley.com/journal/14678659
     # date: '2024-10-11'
     awarder: Wiley & Eurographics
     icon: eurographics-logo
-    summary: |
-      Reviewed in 2024.
+    # summary: |
+    #   Reviewed in 2024.
 ---
