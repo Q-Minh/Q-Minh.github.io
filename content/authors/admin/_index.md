@@ -70,7 +70,7 @@ education:
       GPA: 4.0/4.3
 work:
   - position: Phd Research Intern
-    company_name: Roblox
+    company_name: Roblox Corporation
     company_url: 'https://www.roblox.com/'
     company_logo: 'roblox-logo.jpeg'
     date_start: 2025-05-20
