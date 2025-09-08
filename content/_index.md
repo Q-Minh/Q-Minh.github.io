@@ -35,7 +35,7 @@ sections:
       text: |-
         I leverage massively parallel computing techniques via GPGPU programming, graph processing, efficient large-scale collision detection and handling algorithms, and reduced subspace simulation methods to design and implement high-performance non-linear dynamics solvers.
 
-        At present, my research is focused on methods for real-time convergent elastodynamics, robust geometry processing algorithms for cutting in virtual surgery simulations, and reduced physics primitives for solving PDEs on resource-constrained computational platforms.
+        At present, my research is focused on methods for real-time convergent elastodynamics, robust geometry processing algorithms for cutting in virtual surgery simulations, and compressed physics primitives for solving PDEs on resource-constrained computational platforms.
         
         Please reach out to collaborate 😃
     design:
