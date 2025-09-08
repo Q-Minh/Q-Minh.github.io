@@ -94,7 +94,7 @@ work:
     date_start: 2021-06-01
     date_end: 2022-03-31
     summary: |2-
-      - Engineered an <a href="https://www.unrealengine.com/">Unreal Engine</a> plugin for real-time surgical simulation including cutting.
+      - Engineered a real-time surgical simulation framework including cutting in <a href="https://www.unrealengine.com/">Unreal Engine</a>.
       - Improved soft body simulation stability in cut regions via a novel hybrid <a href="https://en.wikipedia.org/wiki/Finite_element_method">FEM</a>-<a href="https://en.wikipedia.org/wiki/Smoothed-particle_hydrodynamics">SPH</a> coupling method.
   - position: R&D Software Developer
     company_name: Symgery Inc.
@@ -104,7 +104,7 @@ work:
     date_end: 2020-08-21
     summary: |
       - Enhanced visual fidelity of topologically changing geometry by extending a real-time <a href="https://en.wikipedia.org/wiki/Graphics_processing_unit">GPU</a> accelerated <a href="https://www.sciencedirect.com/topics/engineering/isosurface-extraction">isosurface extraction</a> algorithm.
-      - Enabled graphical customization of <a href="https://en.wikipedia.org/wiki/Dirichlet_boundary_condition">essential boundary conditions</a> for <a href="https://www.mathworks.com/discovery/reduced-order-modeling.html">reduced order FEM models</a> in the <a href="https://www.unrealengine.com/">Unreal Engine</a> editor.
+      - Integrated <a href="https://en.wikipedia.org/wiki/Dirichlet_boundary_condition">essential boundary conditions</a> for <a href="https://www.mathworks.com/discovery/reduced-order-modeling.html">reduced order FEM models</a> in <a href="https://www.unrealengine.com/">Unreal Engine</a>.
   - position: R&D Software Developer
     company_name: PreVu3D
     company_url: 'https://www.prevu3d.com/'
@@ -112,7 +112,7 @@ work:
     date_start: 2019-04-22
     date_end: 2019-08-16
     summary: |2-
-      - Orchestrated an end-to-end automated <a href="https://dl.acm.org/doi/10.1145/142920.134011">surface reconstruction</a> pipeline to transform <a href="https://en.wikipedia.org/wiki/Lidar">laser scanned</a> <a href="https://www.autodesk.com/ca-en/solutions/point-clouds">point clouds</a> to full-fledged refined 3D <a href="https://en.wikipedia.org/wiki/Polygon_mesh">polygon meshes</a> without manual intervention.
+      - Orchestrated an end-to-end automated <a href="https://dl.acm.org/doi/10.1145/142920.134011">surface reconstruction</a> pipeline to transform massive <a href="https://en.wikipedia.org/wiki/Lidar">laser scanned</a> <a href="https://www.autodesk.com/ca-en/solutions/point-clouds">point clouds</a> to full-fledged refined 3D <a href="https://en.wikipedia.org/wiki/Polygon_mesh">polygon meshes</a> without manual intervention.
       - Designed a large scale data storage mechanism in the <a href="https://en.wikipedia.org/wiki/Cloud_computing">cloud</a> for efficient <a href="https://en.wikipedia.org/wiki/External_memory_algorithm">out-of-core</a> point cloud streaming.
   - position: Cloud Software Developer
     company_name: Genetec
@@ -129,7 +129,7 @@ work:
 skills:
   - name: Technical Skills
     items:
-      - name: C++, Python
+      - name: C++, Python, C#
         description: ''
         percent: 90
         icon: code-bracket

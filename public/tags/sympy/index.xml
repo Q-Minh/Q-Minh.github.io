@@ -7,7 +7,7 @@
     <description>Sympy</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 15 Oct 2024 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu15109734213095994562.png</url>
+      <url>http://localhost:1313/media/icon_hu_f65799ee63d370e6.png</url>
       <title>Sympy</title>
       <link>http://localhost:1313/tags/sympy/</link>
     </image>
@@ -35,8 +35,7 @@
       <guid>http://localhost:1313/blog/math/sympy/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;
- is a Python library for symbolic mathematics. It aims to become a full-featured computer algebra system (CAS) while keeping the code as simple as possible in order to be comprehensible and easily extensible. SymPy is written entirely in Python.&lt;/p&gt;
-&lt;/blockquote&gt;
+ is a Python library for symbolic mathematics. It aims to become a full-featured computer algebra system (CAS) while keeping the code as simple as possible in order to be comprehensible and easily extensible. SymPy is written entirely in Python.&lt;/p&gt;&lt;/blockquote&gt;
 
 
 

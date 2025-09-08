@@ -7,7 +7,7 @@
     <description>CMake</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 15 Oct 2024 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu15109734213095994562.png</url>
+      <url>http://localhost:1313/media/icon_hu_f65799ee63d370e6.png</url>
       <title>CMake</title>
       <link>http://localhost:1313/tags/cmake/</link>
     </image>
@@ -19,8 +19,7 @@
       <guid>http://localhost:1313/blog/cmake/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;
-&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;The 
  reports from 2018 to 2023 demonstrate 
 &amp;rsquo;s ongoing dominance as the most popular build system for 
