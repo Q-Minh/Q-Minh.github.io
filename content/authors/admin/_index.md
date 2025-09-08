@@ -69,6 +69,16 @@ education:
     summary: |
       GPA: 4.0/4.3
 work:
+  - position: Phd Research Intern
+    company_name: Roblox
+    company_url: 'https://www.roblox.com/'
+    company_logo: 'roblox-logo.jpeg'
+    date_start: 2025-05-20
+    date_end: 2025-09-05
+    summary: |2-
+      - Contributed to the development of next-generation real-time physics technology for the <a href="https://create.roblox.com/docs/studio">Roblox Studio</a> game engine.
+      - Extended the physics engine toward a unified, multi-dynamics solver design, improving flexibility for future simulation features.
+      - Delivered research-driven solutions balancing realism, stability, and efficiency to meet the platform’s strict performance requirements.
   - position: Graduate Course Instructor
     company_name: École de Technologie Supérieure
     company_url: 'https://www.etsmtl.ca/'
@@ -76,7 +86,7 @@ work:
     date_start: 2023-05-01
     date_end: 2023-08-25
     summary: |2-
-      - <a href="https://www.etsmtl.ca/etudes/cours/mti855">MTI855 Game Physics</a>
+      - Taught graduate-level course <a href="https://www.etsmtl.ca/etudes/cours/mti855">MTI855</a> on game physics, covering core simulation methods and real-time applications.
   - position: Research Scientist
     company_name: Symgery Inc.
     company_url: 'https://symgery.com/'
