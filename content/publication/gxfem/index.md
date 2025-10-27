@@ -40,7 +40,7 @@ url_code: ''
 url_dataset: ''
 url_poster: ''
 url_project: ''
-url_slides: 'http://profs.etsmtl.ca/sandrews/slides/GXFEM_SCA24.pptx'
+url_slides: 'https://docs.google.com/presentation/d/1u2H9sR3z0ieWQv23-g2oJyl58TqxdiH-/edit?usp=sharing&ouid=104880424349139622876&rtpof=true&sd=true'
 url_source: ''
 url_video: 'https://drive.google.com/file/d/1RBjv7mK-1c6A-3KVVBBuow963CBWRvGO/view?usp=drive_link'
 
